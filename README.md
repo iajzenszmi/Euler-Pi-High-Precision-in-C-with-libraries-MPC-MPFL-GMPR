@@ -1,5 +1,5 @@
-# Euler-Pi-High-Precision-in-C-with-libraries-MPC-MPFL-GMP
-ian@ian-HP-Convertible-x360-11-ab1XX:~$ gcc EulerPi.c  -lmpc -lmpfr -lgmp -o EulerPi
+# Euler-Pi-High-Precision-in-C-with-libraries-MPC-MPFR-GMP
+ian@ian-HP-Convertible-x360-11-ab1XX:~$ gcc EulerPi.c  -lmpc -lmpfr -lgmp -o EulerPi 
 ian@ian-HP-Convertible-x360-11-ab1XX:~$ ./EulerPi
 Computed value of e^(i*pi/4) is (7.071067811865475244008443621048490392848359376884740365883398689953662392310509e-1 7.071067811865475244008443621048490392848359376884740365883398689953662392310509e-1)
 pi = 3.141592653589793238462643383279502884197169399375105820974944592307816406286199e0

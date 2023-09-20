@@ -1,11 +1,15 @@
+// Euler and Pi Program High Precision.
+// Programmer               Details                       Date
+//  Ian Martin Ajzenszmidt  Add Pi value output.          20/09/2023.
+//  Melbourne, Australia.
 #include <stdio.h>
 #include <mpc.h>
 #include <mpfr.h>
-
 #define PREC 256
 
 int main()
 {
+        printf("\n%s\n","Edited  by Ian Ajzenszmidt to show high precision value of pi ");
 	mpc_t rx;
 	mpc_t ipi4;
 	mpfr_t pi;

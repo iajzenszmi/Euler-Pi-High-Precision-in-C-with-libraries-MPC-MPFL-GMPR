@@ -5,11 +5,16 @@
 #include <stdio.h>
 #include <mpc.h>
 #include <mpfr.h>
+#include <time.h>
 #define PREC 256
 
 int main()
 {
         printf("\n%s\n","Edited  by Ian Ajzenszmidt to show high precision value of pi ");
+        time_t t;   // not a primitive datatype
+    time(&t);
+
+    printf("\nThis program has been run at (date and time): %s", ctime(&t));
 	mpc_t rx;
 	mpc_t ipi4;
 	mpfr_t pi;
